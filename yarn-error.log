@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\HP\Desktop\Camera_Implimantation\Camera\node_modules\.bin;C:\Users\HP\Desktop\Camera_Implimantation\node_modules\.bin;C:\Users\HP\Desktop\node_modules\.bin;C:\Users\HP\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs;C:\Users\HP\Desktop\Camera_Implimantation\node_modules\.bin;C:\Users\HP\Desktop\node_modules\.bin;C:\Users\HP\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Users\HP\AppData\Local\npm-cache\_npx\7930a8670f922cdb\node_modules\.bin;C:\Users\HP\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HP\bin;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
+
+npm manifest: 
+  {
+    "name": "camera",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "react": "17.0.2",
+      "react-native": "0.68.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@babel/runtime": "^7.12.5",
+      "@react-native-community/eslint-config": "^2.0.0",
+      "babel-jest": "^26.6.3",
+      "eslint": "^7.32.0",
+      "jest": "^26.6.3",
+      "metro-react-native-babel-preset": "^0.67.0",
+      "react-test-renderer": "17.0.2"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
